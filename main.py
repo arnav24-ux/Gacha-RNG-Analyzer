@@ -23,7 +23,6 @@ def main():
         cost_per_pull = int(input("Enter the in-game cost per pull (e.g., 160): "))
         
         print("\n--- Results ---")
-        # FIXED: Added a list of target percentages to test
         targets = [50, 75, 90, 99] 
         
         for target in targets:
